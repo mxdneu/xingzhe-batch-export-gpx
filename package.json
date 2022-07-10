@@ -1,0 +1,20 @@
+{
+  "name": "xingzhe-gpx",
+  "version": "1.0.0",
+  "description": "export gpx file from xingzhe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf ./dist && tsc -w",
+    "download": "rm -rf download && mkdir download && node dist/index.js"
+  },
+  "author": "mxdneu",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.0.3"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "download": "^8.0.0"
+  }
+}
